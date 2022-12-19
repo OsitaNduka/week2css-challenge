@@ -1,4 +1,4 @@
-{
+* {
     box-sizing: border-box;
   }
   
@@ -88,7 +88,7 @@
   
   .hero-banner {
     background: rgb(68, 88, 120);
-    background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image: url("../week2css-challenge/02-portfolio-2.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
@@ -150,10 +150,12 @@
   
   .flex-container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    margin: auto;
+    /* justify-content: space-between; */
   }
-  
+
   .flex-item {
     border: 5px solid var(--secondary);
     background-color: var(--primary);
@@ -170,12 +172,16 @@
     background-size: 150%;
     transition: all 0.5s;
     font-size: 0.9rem;
+    width: 50%;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
   
   /* feature first portfolio item */
   .flex-item:first-child {
       min-height: 400px;
       flex-basis: 100%;
+      min-width: 97%;
   }
   
   .flex-item:hover {
@@ -221,23 +227,24 @@
   
   /* portfolio project images */
   .run-buddy {
-    background-image: url("../images/02-run-buddy.jpg");
+    background-image: url("../week2css-challenge/02-run-buddy.jpg");
   }
   
   .led-wall {
-    background-image: url("../images/02-portfolio-1.jpg");
+    background-image: url("../week2css-challenge/02-portfolio-1.jpg");
   }
   
   .react-calc {
-    background-image: url("../images/02-portfolio-2.jpg");
+    background-image: url("../week2css-challenge/02-portfolio-2.jpg");
   }
   
   .pastel-puzzles {
-    background-image: url("../02-portfolio-3.jpg");
+    background-image: url("../week2css-challenge/02-portfolio-3.jpg");
   }
   
   .surf-report {
-    background-image: url("../images/02-portfolio-4.jpg");
+    width: 90%;
+    background-image: url("../week2css-challenge/02-portfolio-4.jpg");
   }
   
   /* end portfolio project images */
