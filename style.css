@@ -226,8 +226,8 @@
   }
   
   /* portfolio project images */
-  .run-buddy {
-    background-image: url("../week2css-challenge/02-run-buddy.jpg");
+  .Css-Cheatsheet {
+    background-image: url("../week2css-challenge/Css-screenshort.PNG");
   }
   
   .led-wall {
@@ -238,13 +238,13 @@
     background-image: url("../week2css-challenge/02-portfolio-2.jpg");
   }
   
-  .pastel-puzzles {
-    background-image: url("../week2css-challenge/02-portfolio-3.jpg");
+  .Css-Grid {
+    background-image: url("../");
   }
   
-  .surf-report {
+  .Pre-work {
     width: 90%;
-    background-image: url("../week2css-challenge/02-portfolio-4.jpg");
+    background-image: url("../week2css-challenge/pre-work.PNG");
   }
   
   /* end portfolio project images */
