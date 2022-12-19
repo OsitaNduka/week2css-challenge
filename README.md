@@ -31,3 +31,5 @@ N/A
  ![App Screenshorts](../week2css-challenge/Bio-image.PNG)
 
  ![App Screenshorts](../week2css-challenge/screenshort.PNG)
+
+ ![App Screenshorts](https://ositanduka.github.io/week2css-challenge/)
