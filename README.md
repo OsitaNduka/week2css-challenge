@@ -22,3 +22,10 @@ N/A
  ## LICENSE
 
  Please refer to the license in the Repo.
+
+
+ ## Screenshorts
+
+ ![App Screenshorts](../week2css-challenge/Bio-image.PNG)
+
+ ![App Screenshorts](../week2css-challenge/screenshort.PNG)
